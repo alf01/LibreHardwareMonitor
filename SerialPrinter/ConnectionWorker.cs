@@ -30,6 +30,10 @@ namespace SerialPrinter
 
         public bool Open()
         {
+            if (string.IsNullOrEmpty(Port))
+            {
+                return false;
+            }
             if (_serial.IsOpen)
             {
                 try

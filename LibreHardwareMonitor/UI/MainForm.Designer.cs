@@ -116,6 +116,9 @@ namespace LibreHardwareMonitor.UI
             this.webMenuItem = new System.Windows.Forms.MenuItem();
             this.runWebServerMenuItem = new System.Windows.Forms.MenuItem();
             this.serverPortMenuItem = new System.Windows.Forms.MenuItem();
+            this.serialBlock = new System.Windows.Forms.MenuItem();
+            this.runSerialMenuItem = new System.Windows.Forms.MenuItem();
+            this.serialConfigMenuItem = new System.Windows.Forms.MenuItem();
             this.helpMenuItem = new System.Windows.Forms.MenuItem();
             this.aboutMenuItem = new System.Windows.Forms.MenuItem();
             this.treeContextMenu = new System.Windows.Forms.ContextMenu();
@@ -123,9 +126,6 @@ namespace LibreHardwareMonitor.UI
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.splitContainer = new LibreHardwareMonitor.UI.SplitContainerAdv();
             this.treeView = new Aga.Controls.Tree.TreeViewAdv();
-            this.serialBlock = new System.Windows.Forms.MenuItem();
-            this.runSerialMenuItem = new System.Windows.Forms.MenuItem();
-            this.serialConfigMenuItem = new System.Windows.Forms.MenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).BeginInit();
             this.splitContainer.Panel1.SuspendLayout();
             this.splitContainer.SuspendLayout();
@@ -682,6 +682,25 @@ namespace LibreHardwareMonitor.UI
             this.serverPortMenuItem.Text = "Port";
             this.serverPortMenuItem.Click += new System.EventHandler(this.ServerPortMenuItem_Click);
             // 
+            // serialBlock
+            // 
+            this.serialBlock.Index = 13;
+            this.serialBlock.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
+            this.runSerialMenuItem,
+            this.serialConfigMenuItem});
+            this.serialBlock.Text = "Serial";
+            // 
+            // runSerialMenuItem
+            // 
+            this.runSerialMenuItem.Index = 0;
+            this.runSerialMenuItem.Text = "Run";
+            // 
+            // serialConfigMenuItem
+            // 
+            this.serialConfigMenuItem.Index = 1;
+            this.serialConfigMenuItem.Text = "Config";
+            this.serialConfigMenuItem.Click += new System.EventHandler(this.SerialConfigMenuItem_Click);
+            // 
             // helpMenuItem
             // 
             this.helpMenuItem.Index = 3;
@@ -762,24 +781,6 @@ namespace LibreHardwareMonitor.UI
             this.treeView.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TreeView_MouseDown);
             this.treeView.MouseMove += new System.Windows.Forms.MouseEventHandler(this.TreeView_MouseMove);
             this.treeView.MouseUp += new System.Windows.Forms.MouseEventHandler(this.TreeView_MouseUp);
-            // 
-            // serialBlock
-            // 
-            this.serialBlock.Index = 13;
-            this.serialBlock.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
-            this.runSerialMenuItem,
-            this.serialConfigMenuItem});
-            this.serialBlock.Text = "Serial";
-            // 
-            // runSerialMenuItem
-            // 
-            this.runSerialMenuItem.Index = 0;
-            this.runSerialMenuItem.Text = "Run";
-            // 
-            // serialConfigMenuItem
-            // 
-            this.serialConfigMenuItem.Index = 1;
-            this.serialConfigMenuItem.Text = "Config";
             // 
             // MainForm
             // 
