@@ -1,4 +1,4 @@
-﻿namespace OpenHardwareMonitor.GUI
+﻿namespace SerialPrinter
 {
     partial class SerialForm
     {

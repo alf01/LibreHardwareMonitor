@@ -8,9 +8,9 @@ namespace SerialPrinter
 {
     public class Serial
     {
-        private Computer _computer;
+        private readonly Computer _computer;
         private readonly ISettings _settings;
-        private ConnectionWorker _connectionWorker;
+        private readonly ConnectionWorker _connectionWorker;
 
         public Serial(Computer computer, ISettings settings)
         {
@@ -25,7 +25,7 @@ namespace SerialPrinter
             set { _connectionWorker.Port = value; }
         }
 
-        private float MaxTemp(Computer computer, HardwareType type, string Name = null)
+        private float MaxTemp(Computer computer, HardwareType type, string name = null)
         {
             var gpus = computer.Hardware.Where(x => x.HardwareType == type).ToArray();
 
@@ -34,9 +34,9 @@ namespace SerialPrinter
                 float t = 0;
                 foreach (var gpu in gpus)
                 {
-                    if (!string.IsNullOrEmpty(Name))
+                    if (!string.IsNullOrEmpty(name))
                     {
-                        var temps = gpu.Sensors.Where(x => x.Name == Name && x.SensorType == SensorType.Temperature).ToArray();
+                        var temps = gpu.Sensors.Where(x => x.Name == name && x.SensorType == SensorType.Temperature).ToArray();
 
                         if (temps.Count() != 0)
                         {

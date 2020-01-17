@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using LibreHardwareMonitor.Hardware;
 using SerialPrinter;
 
-namespace OpenHardwareMonitor.GUI
+namespace SerialPrinter
 {
     public partial class SerialForm : Form
     {

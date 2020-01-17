@@ -16,7 +16,6 @@ using Aga.Controls.Tree.NodeControls;
 using LibreHardwareMonitor.Hardware;
 using LibreHardwareMonitor.Wmi;
 using LibreHardwareMonitor.Utilities;
-using OpenHardwareMonitor.GUI;
 using SerialPrinter;
 
 namespace LibreHardwareMonitor.UI
