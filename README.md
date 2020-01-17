@@ -3,6 +3,6 @@
 
 Libre Hardware Monitor, a fork of Open Hardware Monitor, is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of your computer.
 
-We will happily accept pull requests.
+this project is a fork of Libre Hardware Monitor and AlexGyver PCdisplay poject (https://github.com/AlexGyver/PCdisplay)
 
-You can download the latest builds [here](https://ci.appveyor.com/project/LibreHardwareMonitor/librehardwaremonitor/build/artifacts).
+Build are available in "\bin\Debug" path
