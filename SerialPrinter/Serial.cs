@@ -132,11 +132,13 @@ namespace SerialPrinter
 
                 };
 
-                for (int i = 1; i < 17; i++)
-                {
-                    data.Add((int)MaxTemp(_computer, HardwareType.Cpu, $"CPU Core #{i}"));
-                    data.Add((int)UsageInPercent(_computer, HardwareType.Cpu, $"CPU Core #{i}"));
-                }
+
+                //uncomment if you want additionally send info about every cpu core
+                //for (int i = 1; i < 17; i++)
+                //{
+                //    data.Add((int)MaxTemp(_computer, HardwareType.Cpu, $"CPU Core #{i}"));
+                //    data.Add((int)UsageInPercent(_computer, HardwareType.Cpu, $"CPU Core #{i}"));
+                //}
 
                 if (!hardwareOnly)
                 {
