@@ -16,6 +16,7 @@ using Aga.Controls.Tree.NodeControls;
 using LibreHardwareMonitor.Hardware;
 using LibreHardwareMonitor.Wmi;
 using LibreHardwareMonitor.Utilities;
+using SerialPrinter;
 
 namespace LibreHardwareMonitor.UI
 {
@@ -51,6 +52,9 @@ namespace LibreHardwareMonitor.UI
         private readonly UserOption _showGadget;
         private UserRadioGroup _plotLocation;
         private readonly WmiProvider _wmiProvider;
+
+        private UserOption _runSerial;
+        private Serial _serial;
 
         private readonly UserOption _runWebServer;
         private readonly UserOption _logSensors;
@@ -281,6 +285,11 @@ namespace LibreHardwareMonitor.UI
                 else
                     Server.StopHttpListener();
             };
+
+            _serial = new Serial(_computer);
+
+            _runSerial = new UserOption("runSerialMenuItem", false, runSerialMenuItem, _settings);
+            _runSerial.Changed += delegate { _serial.Enabled = _runSerial.Value; };
 
             _logSensors = new UserOption("logSensorsMenuItem", false, logSensorsMenuItem, _settings);
 
@@ -625,6 +634,7 @@ namespace LibreHardwareMonitor.UI
             _systemTray.Redraw();
             _gadget?.Redraw();
             _wmiProvider?.Update();
+            _serial.Send();
 
             if (_logSensors != null && _logSensors.Value && _delayCount >= 4)
                 _logger.Log();
