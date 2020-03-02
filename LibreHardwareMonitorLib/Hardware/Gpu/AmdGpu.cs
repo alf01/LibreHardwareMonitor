@@ -1,7 +1,8 @@
-// Mozilla Public License 2.0
+// This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
 // If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
-// Copyright (C) LibreHardwareMonitor and Contributors
-// All Rights Reserved
+// Copyright (C) LibreHardwareMonitor and Contributors.
+// Partial Copyright (C) Michael Möller <mmoeller@openhardwaremonitor.org> and Contributors.
+// All Rights Reserved.
 
 using System;
 using System.Globalization;
@@ -200,7 +201,7 @@ namespace LibreHardwareMonitor.Hardware.Gpu
 
                     int temp = 0;
 
-                    if (AtiAdlxx.ADL2_OverdriveN_Temperature_Get(_context, _adapterIndex, AtiAdlxx.ADLODNTemperatureType.EDGE, ref temp) == AtiAdlxx.ADL_OK && temp < maxTemperature)
+                    if (AtiAdlxx.ADL2_OverdriveN_Temperature_Get(_context, _adapterIndex, AtiAdlxx.ADLODNTemperatureType.EDGE, ref temp) == AtiAdlxx.ADL_OK && temp < (maxTemperature * 1000))
                     {
                         _temperatureCore.Value = 0.001f * temp;
                         ActivateSensor(_temperatureCore);
