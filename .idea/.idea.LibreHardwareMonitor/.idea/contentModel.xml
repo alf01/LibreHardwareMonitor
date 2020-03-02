@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\LibreHardwareMonitor" t="IncludeFlat">
+      <e p=".editorconfig" t="Include" />
+      <e p="Aga.Controls" t="IncludeRecursive">
+        <e p="Aga.Controls.csproj" t="IncludeRecursive" />
+        <e p="BitmapHelper.cs" t="Include" />
+        <e p="GifDecoder.cs" t="Include" />
+        <e p="NumericTextBox.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PerformanceAnalyzer.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="ResourceHelper.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="check.bmp" t="Include" />
+          <e p="DVSplit.cur" t="Include" />
+          <e p="Folder.bmp" t="Include" />
+          <e p="FolderClosed.bmp" t="Include" />
+          <e p="Leaf.bmp" t="Include" />
+          <e p="loading_icon" t="Include" />
+          <e p="minus.bmp" t="Include" />
+          <e p="plus.bmp" t="Include" />
+          <e p="uncheck.bmp" t="Include" />
+          <e p="unknown.bmp" t="Include" />
+        </e>
+        <e p="StringCollectionEditor.cs" t="Include" />
+        <e p="TextHelper.cs" t="Include" />
+        <e p="Threading" t="Include">
+          <e p="AbortableThreadPool.cs" t="Include" />
+          <e p="WorkItem.cs" t="Include" />
+          <e p="WorkItemStatus.cs" t="Include" />
+        </e>
+        <e p="TimeCounter.cs" t="Include" />
+        <e p="Tree" t="Include">
+          <e p="AutoRowHeightLayout.cs" t="Include" />
+          <e p="ClassDiagram.cd" t="Include" />
+          <e p="DrawContext.cs" t="Include" />
+          <e p="DropNodeValidatingEventArgs.cs" t="Include" />
+          <e p="DropPosition.cs" t="Include" />
+          <e p="EditorContext.cs" t="Include" />
+          <e p="Enums.cs" t="Include" />
+          <e p="FixedRowHeightLayout.cs" t="Include" />
+          <e p="IncrementalSearch.cs" t="Include" />
+          <e p="Input" t="Include">
+            <e p="ClickColumnState.cs" t="Include" />
+            <e p="ColumnState.cs" t="Include" />
+            <e p="InputState.cs" t="Include" />
+            <e p="InputWithControl.cs" t="Include" />
+            <e p="InputWithShift.cs" t="Include" />
+            <e p="NormalInputState.cs" t="Include" />
+            <e p="ReorderColumnState.cs" t="Include" />
+            <e p="ResizeColumnState.cs" t="Include" />
+          </e>
+          <e p="IRowLayout.cs" t="Include" />
+          <e p="IToolTipProvider.cs" t="Include" />
+          <e p="ITreeModel.cs" t="Include" />
+          <e p="ListModel.cs" t="Include" />
+          <e p="Node.cs" t="Include" />
+          <e p="NodeControlInfo.cs" t="Include" />
+          <e p="NodeControls" t="Include">
+            <e p="BaseTextControl.cs" t="Include" />
+            <e p="BindableControl.cs" t="Include" />
+            <e p="ClassDiagram.cd" t="Include" />
+            <e p="DrawEventArgs.cs" t="Include" />
+            <e p="EditableControl.cs" t="Include" />
+            <e p="EditEventArgs.cs" t="Include" />
+            <e p="ExpandingIcon.cs" t="Include" />
+            <e p="InteractiveControl.cs" t="Include" />
+            <e p="LabelEventArgs.cs" t="Include" />
+            <e p="NodeCheckBox.cs" t="Include" />
+            <e p="NodeComboBox.cs" t="Include" />
+            <e p="NodeControl.cs" t="Include" />
+            <e p="NodeControlsCollection.cs" t="Include" />
+            <e p="NodeControlValueEventArgs.cs" t="Include" />
+            <e p="NodeDecimalTextBox.cs" t="Include" />
+            <e p="NodeEventArgs.cs" t="Include" />
+            <e p="NodeIcon.cs" t="Include" />
+            <e p="NodeIntegerTextBox.cs" t="Include" />
+            <e p="NodeNumericUpDown.cs" t="Include" />
+            <e p="NodePlusMinus.cs" t="Include" />
+            <e p="NodeStateIcon.cs" t="Include" />
+            <e p="NodeTextBox.cs" t="Include" />
+          </e>
+          <e p="SortedTreeModel.cs" t="Include" />
+          <e p="TreeColumn.cs" t="Include" />
+          <e p="TreeColumnCollection.cs" t="Include" />
+          <e p="TreeColumnEventArgs.cs" t="Include" />
+          <e p="TreeListAdapter.cs" t="Include" />
+          <e p="TreeModel.cs" t="Include" />
+          <e p="TreeModelBase.cs" t="Include" />
+          <e p="TreeModelEventArgs.cs" t="Include" />
+          <e p="TreeNodeAdv.cs" t="Include" />
+          <e p="TreeNodeAdvMouseEventArgs.cs" t="Include" />
+          <e p="TreePath.cs" t="Include" />
+          <e p="TreePathEventArgs.cs" t="Include" />
+          <e p="TreeViewAdv.cs" t="Include" />
+          <e p="TreeViewAdv.Designer.cs" t="Include" />
+          <e p="TreeViewAdv.Draw.cs" t="Include" />
+          <e p="TreeViewAdv.Editor.cs" t="Include" />
+          <e p="TreeViewAdv.Input.cs" t="Include" />
+          <e p="TreeViewAdv.Properties.cs" t="Include" />
+          <e p="TreeViewAdv.resx" t="Include" />
+          <e p="TreeViewAdvCancelEventArgs.cs" t="Include" />
+          <e p="TreeViewAdvEventArgs.cs" t="Include" />
+          <e p="TreeViewRowDrawEventArgs.cs" t="Include" />
+        </e>
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controls" t="Include" />
+      <e p="LibreHardwareMonitor" t="IncludeRecursive">
+        <e p="LibreHardwareMonitor.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="acicon.png" t="Include" />
+          <e p="amd.png" t="Include" />
+          <e p="app.manifest" t="Include" />
+          <e p="barback.png" t="Include" />
+          <e p="barblue.png" t="Include" />
+          <e p="bigng.png" t="Include" />
+          <e p="chip.png" t="Include" />
+          <e p="clock.png" t="Include" />
+          <e p="computer.png" t="Include" />
+          <e p="control.png" t="Include" />
+          <e p="cpu.png" t="Include" />
+          <e p="data.png" t="Include" />
+          <e p="factor.png" t="Include" />
+          <e p="fan.png" t="Include" />
+          <e p="flow.png" t="Include" />
+          <e p="gadget.png" t="Include" />
+          <e p="hdd.png" t="Include" />
+          <e p="icon.ico" t="Include" />
+          <e p="level.png" t="Include" />
+          <e p="load.png" t="Include" />
+          <e p="mainboard.png" t="Include" />
+          <e p="nic.png" t="Include" />
+          <e p="nvidia.png" t="Include" />
+          <e p="power.png" t="Include" />
+          <e p="ram.png" t="Include" />
+          <e p="smallicon.ico" t="Include" />
+          <e p="temperature.png" t="Include" />
+          <e p="throughput.png" t="Include" />
+          <e p="voltage.png" t="Include" />
+          <e p="Web" t="Include">
+            <e p="css" t="Include">
+              <e p="custom-theme" t="Include">
+                <e p="images" t="Include">
+                  <e p="ui-bg_flat_0_aaaaaa_40x100.png" t="Include" />
+                  <e p="ui-bg_glass_55_fbf9ee_1x400.png" t="Include" />
+                  <e p="ui-bg_glass_65_ffffff_1x400.png" t="Include" />
+                  <e p="ui-bg_glass_75_dadada_1x400.png" t="Include" />
+                  <e p="ui-bg_glass_75_e6e6e6_1x400.png" t="Include" />
+                  <e p="ui-bg_glass_75_ffffff_1x400.png" t="Include" />
+                  <e p="ui-bg_highlight-soft_75_cccccc_1x100.png" t="Include" />
+                  <e p="ui-bg_inset-soft_95_fef1ec_1x100.png" t="Include" />
+                  <e p="ui-icons_222222_256x240.png" t="Include" />
+                  <e p="ui-icons_2e83ff_256x240.png" t="Include" />
+                  <e p="ui-icons_454545_256x240.png" t="Include" />
+                  <e p="ui-icons_888888_256x240.png" t="Include" />
+                  <e p="ui-icons_cd0a0a_256x240.png" t="Include" />
+                </e>
+                <e p="jquery-ui-1.8.16.custom.css" t="Include" />
+              </e>
+              <e p="jquery.treeTable.css" t="Include" />
+              <e p="ohm_web.css" t="Include" />
+            </e>
+            <e p="images" t="Include">
+              <e p="toggle-collapse-dark.png" t="Include" />
+              <e p="toggle-collapse-light.png" t="Include" />
+              <e p="toggle-expand-dark.png" t="Include" />
+              <e p="toggle-expand-light.png" t="Include" />
+              <e p="transparent.png" t="Include" />
+            </e>
+            <e p="index.html" t="Include" />
+            <e p="js" t="Include">
+              <e p="jquery-1.7.2.min.js" t="Include" />
+              <e p="jquery-ui-1.8.16.custom.min.js" t="Include" />
+              <e p="jquery.tmpl.min.js" t="Include" />
+              <e p="jquery.treeTable.min.js" t="Include" />
+              <e p="knockout-2.1.0.min.js" t="Include" />
+              <e p="knockout.mapping-latest.min.js" t="Include" />
+              <e p="ohm_web.js" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="UI" t="Include">
+          <e p="AboutBox.cs" t="Include" />
+          <e p="AboutBox.Designer.cs" t="Include" />
+          <e p="AboutBox.resx" t="Include" />
+          <e p="Gadget.cs" t="Include" />
+          <e p="GadgetWindow.cs" t="Include" />
+          <e p="HardwareNode.cs" t="Include" />
+          <e p="HardwareTypeImage.cs" t="Include" />
+          <e p="MainForm.cs" t="Include" />
+          <e p="MainForm.Designer.cs" t="Include" />
+          <e p="MainForm.resx" t="Include" />
+          <e p="Node.cs" t="Include" />
+          <e p="NotifyIconAdv.cs" t="Include" />
+          <e p="ParameterForm.cs" t="Include" />
+          <e p="ParameterForm.Designer.cs" t="Include" />
+          <e p="ParameterForm.resx" t="Include" />
+          <e p="PlotPanel.cs" t="Include" />
+          <e p="PortForm.cs" t="Include" />
+          <e p="PortForm.Designer.cs" t="Include" />
+          <e p="PortForm.resx" t="Include" />
+          <e p="ScaledPlotModel.cs" t="Include" />
+          <e p="SensorGadget.cs" t="Include" />
+          <e p="SensorNode.cs" t="Include" />
+          <e p="SensorNotifyIcon.cs" t="Include" />
+          <e p="ShowDesktop.cs" t="Include" />
+          <e p="SplitContainerAdv.cs" t="Include" />
+          <e p="StartupManager.cs" t="Include" />
+          <e p="SystemTray.cs" t="Include" />
+          <e p="TreeModel.cs" t="Include" />
+          <e p="TypeNode.cs" t="Include" />
+          <e p="UnitManager.cs" t="Include" />
+          <e p="UpdateVisitor.cs" t="Include" />
+          <e p="UserOption.cs" t="Include" />
+          <e p="UserRadioGroup.cs" t="Include" />
+        </e>
+        <e p="Utilities" t="Include">
+          <e p="EmbeddedResources.cs" t="Include" />
+          <e p="HttpServer.cs" t="Include" />
+          <e p="IconFactory.cs" t="Include" />
+          <e p="Logger.cs" t="Include" />
+          <e p="PersistentSettings.cs" t="Include" />
+        </e>
+        <e p="WMI" t="Include">
+          <e p="Hardware.cs" t="Include" />
+          <e p="IWmiObject.cs" t="Include" />
+          <e p="Sensor.cs" t="Include" />
+          <e p="WmiProvider.cs" t="Include" />
+        </e>
+      </e>
+      <e p="LibreHardwareMonitor.sln" t="IncludeFlat" />
+      <e p="LibreHardwareMonitorLib" t="IncludeRecursive">
+        <e p="Hardware" t="Include">
+          <e p="Computer.cs" t="Include" />
+          <e p="Control.cs" t="Include" />
+          <e p="Controller" t="Include">
+            <e p="AquaComputer" t="Include">
+              <e p="AquaComputerGroup.cs" t="Include" />
+              <e p="AquastreamXT.cs" t="Include" />
+              <e p="MPS.cs" t="Include" />
+            </e>
+            <e p="Heatmaster" t="Include">
+              <e p="Heatmaster.cs" t="Include" />
+              <e p="HeatmasterGroup.cs" t="Include" />
+            </e>
+            <e p="TBalancer" t="Include">
+              <e p="TBalancer.cs" t="Include" />
+              <e p="TBalancerGroup.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Cpu" t="Include">
+            <e p="Amd0FCpu.cs" t="Include" />
+            <e p="Amd10Cpu.cs" t="Include" />
+            <e p="Amd17Cpu.cs" t="Include" />
+            <e p="AmdCpu.cs" t="Include" />
+            <e p="CpuGroup.cs" t="Include" />
+            <e p="CpuId.cs" t="Include" />
+            <e p="CpuLoad.cs" t="Include" />
+            <e p="GenericCpu.cs" t="Include" />
+            <e p="IntelCpu.cs" t="Include" />
+          </e>
+          <e p="FirmwareTable.cs" t="Include" />
+          <e p="Gpu" t="Include">
+            <e p="AmdGpu.cs" t="Include" />
+            <e p="AmdGpuGroup.cs" t="Include" />
+            <e p="NvidiaGpu.cs" t="Include" />
+            <e p="NvidiaGroup.cs" t="Include" />
+          </e>
+          <e p="Hardware.cs" t="Include" />
+          <e p="IComputer.cs" t="Include" />
+          <e p="IControl.cs" t="Include" />
+          <e p="Identifier.cs" t="Include" />
+          <e p="IElement.cs" t="Include" />
+          <e p="IGroup.cs" t="Include" />
+          <e p="IHardware.cs" t="Include" />
+          <e p="IParameter.cs" t="Include" />
+          <e p="ISensor.cs" t="Include" />
+          <e p="ISettings.cs" t="Include" />
+          <e p="IVisitor.cs" t="Include" />
+          <e p="KernelDriver.cs" t="Include" />
+          <e p="Memory" t="Include">
+            <e p="GenericMemory.cs" t="Include" />
+            <e p="MemoryGroup.cs" t="Include" />
+          </e>
+          <e p="Motherboard" t="Include">
+            <e p="Identification.cs" t="Include" />
+            <e p="Lpc" t="Include">
+              <e p="Chip.cs" t="Include" />
+              <e p="F718XX.cs" t="Include" />
+              <e p="ISuperIO.cs" t="Include" />
+              <e p="IT87XX.cs" t="Include" />
+              <e p="LMSensors.cs" t="Include" />
+              <e p="LpcIO.cs" t="Include" />
+              <e p="LPcPort.cs" t="Include" />
+              <e p="Nct677X.cs" t="Include" />
+              <e p="W836XX.cs" t="Include" />
+            </e>
+            <e p="Manufacturer.cs" t="Include" />
+            <e p="Model.cs" t="Include" />
+            <e p="Motherboard.cs" t="Include" />
+            <e p="MotherboardGroup.cs" t="Include" />
+            <e p="SuperIOHardware.cs" t="Include" />
+          </e>
+          <e p="Network" t="Include">
+            <e p="Network.cs" t="Include" />
+            <e p="NetworkGroup.cs" t="Include" />
+          </e>
+          <e p="OpCode.cs" t="Include" />
+          <e p="Parameter.cs" t="Include" />
+          <e p="ParameterDescription.cs" t="Include" />
+          <e p="Ring0.cs" t="Include" />
+          <e p="Sensor.cs" t="Include" />
+          <e p="SensorVisitor.cs" t="Include" />
+          <e p="SMBios.cs" t="Include" />
+          <e p="Storage" t="Include">
+            <e p="AbstractStorage.cs" t="Include" />
+            <e p="ATAStorage.cs" t="Include" />
+            <e p="DebugSmart.cs" t="Include" />
+            <e p="GenericHardDisk.cs" t="Include" />
+            <e p="INVMeDrive.cs" t="Include" />
+            <e p="ISmart.cs" t="Include" />
+            <e p="NamePrefixAttribute.cs" t="Include" />
+            <e p="NVMeGeneric.cs" t="Include" />
+            <e p="NVMeHealthInfo.cs" t="Include" />
+            <e p="NVMeInfo.cs" t="Include" />
+            <e p="NVMeIntel.cs" t="Include" />
+            <e p="NVMeIntelRst.cs" t="Include" />
+            <e p="NVMeSamsung.cs" t="Include" />
+            <e p="NVMeSmart.cs" t="Include" />
+            <e p="NVMeWindows.cs" t="Include" />
+            <e p="RequireSmartAttribute.cs" t="Include" />
+            <e p="SmartAttribute.cs" t="Include" />
+            <e p="SmartNames.cs" t="Include" />
+            <e p="SsdIndilinx.cs" t="Include" />
+            <e p="SsdIntel.cs" t="Include" />
+            <e p="SsdMicron.cs" t="Include" />
+            <e p="SsdPlextor.cs" t="Include" />
+            <e p="SsdSamsung.cs" t="Include" />
+            <e p="SsdSandforce.cs" t="Include" />
+            <e p="StorageGeneric.cs" t="Include" />
+            <e p="StorageGroup.cs" t="Include" />
+            <e p="StorageInfo.cs" t="Include" />
+            <e p="WindowsSmart.cs" t="Include" />
+            <e p="WindowsStorage.cs" t="Include" />
+          </e>
+          <e p="ThreadAffinity.cs" t="Include" />
+          <e p="WinRing0.sys" t="Include" />
+          <e p="WinRing0x64.sys" t="Include" />
+        </e>
+        <e p="Interop" t="Include">
+          <e p="AdvApi32.cs" t="Include" />
+          <e p="AtiAdlxx.cs" t="Include" />
+          <e p="Ftd2xx.cs" t="Include" />
+          <e p="Kernel32.cs" t="Include" />
+          <e p="LibC.cs" t="Include" />
+          <e p="NtDll.cs" t="Include" />
+          <e p="NvApi.cs" t="Include" />
+          <e p="NvidiaML.cs" t="Include" />
+          <e p="Ring0.cs" t="Include" />
+        </e>
+        <e p="LibreHardwareMonitorLib.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyLibInfo.cs" t="Include" />
+          <e p="AssemblyVersion.cs" t="Include" />
+        </e>
+        <e p="Software" t="Include">
+          <e p="OperatingSystem.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Licenses\LICENSE" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SerialPrinter" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ConnectionWorker.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Properties.Designer.cs" t="Include" />
+        <e p="Properties.settings" t="Include" />
+        <e p="Serial.cs" t="Include" />
+        <e p="SerialForm.cs" t="Include" />
+        <e p="SerialForm.Designer.cs" t="Include" />
+        <e p="SerialForm.resx" t="Include" />
+        <e p="SerialPrinter.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Solution Items" t="Include" />
+    </e>
+    <e p="C:\Users\ponomarenko\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ponomarenko\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_LibreHardwareMonitor.-1690801647.00" t="ExcludeRecursive" />
+  </component>
+</project>
