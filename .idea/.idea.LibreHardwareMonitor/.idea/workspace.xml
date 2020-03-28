@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="754d8259-5fae-4eef-8f38-d8ed097abeed" name="Default Changelist" comment="" />
+    <list default="true" id="754d8259-5fae-4eef-8f38-d8ed097abeed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LibreHardwareMonitor/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibreHardwareMonitor/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LibreHardwareMonitor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibreHardwareMonitor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerialPrinter/Serial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SerialPrinter/Serial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerialPrinter/bin/Debug/LibreHardwareMonitorLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SerialPrinter/bin/Debug/LibreHardwareMonitorLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerialPrinter/bin/Debug/LibreHardwareMonitorLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SerialPrinter/bin/Debug/LibreHardwareMonitorLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerialPrinter/bin/Debug/SerialPrinter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SerialPrinter/bin/Debug/SerialPrinter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerialPrinter/bin/Debug/SerialPrinter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SerialPrinter/bin/Debug/SerialPrinter.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Aga.Controls.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Aga.Controls.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Aga.Controls.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Aga.Controls.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/LibreHardwareMonitor.config" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/LibreHardwareMonitor.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/LibreHardwareMonitor.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/LibreHardwareMonitor.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/LibreHardwareMonitor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/LibreHardwareMonitor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/LibreHardwareMonitorLib.1.0.0.nupkg" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/LibreHardwareMonitorLib.1.0.0.nupkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/LibreHardwareMonitorLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/LibreHardwareMonitorLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/LibreHardwareMonitorLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/LibreHardwareMonitorLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/SerialPrinter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/SerialPrinter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/SerialPrinter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/SerialPrinter.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net452/LibreHardwareMonitorLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net452/LibreHardwareMonitorLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net452/LibreHardwareMonitorLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net452/LibreHardwareMonitorLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netstandard2.0/LibreHardwareMonitorLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netstandard2.0/LibreHardwareMonitorLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netstandard2.0/LibreHardwareMonitorLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netstandard2.0/LibreHardwareMonitorLib.pdb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,44 +34,45 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Motherboard/SuperIOHardware.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/c4/32104979/Signature.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/UpdateVisitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/ISensor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Aga.Controls/Tree/TreeViewAdv.Draw.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Aga.Controls/Tree/NodeControls/BindableControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/SensorGadget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Hardware.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/HardwareTypeImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/SensorNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Aga.Controls/Tree/NodeControls/BaseTextControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/Gadget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Computer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/GadgetWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aga.Controls/Tree/NodeControls/NodeControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/Node.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/7c/528c4900/RuntimeMethodHandle.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Cpu/GenericCpu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/Gadget.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/UpdateVisitor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Gpu/AmdGpu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/HardwareNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/7d/8e90a06e/String.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/GadgetWindow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/MainForm.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Gpu/NvidiaGpu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/UserOption.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SerialPrinter/Serial.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/HardwareTypeImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Gpu/NvidiaGpu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Gpu/AmdGpu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SerialPrinter/SerialForm.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SerialPrinter/ConnectionWorker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/SensorNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Aga.Controls/Tree/TreeViewAdv.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/WMI/Sensor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/ISensor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Aga.Controls/Tree/NodeControls/BindableControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/5d/4fa5e1ae/RuntimePropertyInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/WMI/WmiProvider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/WMI/IWmiObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/WMI/Hardware.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Computer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Hardware.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/ca/576e7088/MethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Aga.Controls/Tree/NodeControls/BaseTextControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Sensor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/57/58400248/RuntimeMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Motherboard/Motherboard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/Utilities/HttpServer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Aga.Controls/Tree/TreeViewAdv.Draw.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SerialPrinter/ConnectionWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Cpu/GenericCpu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Aga.Controls/Tree/TreeViewAdv.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SerialPrinter/Serial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/WMI/WmiProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/WMI/Hardware.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/WMI/Sensor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/WMI/IWmiObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/MainForm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Motherboard/SuperIOHardware.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Motherboard/Motherboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitor/UI/HardwareNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibreHardwareMonitorLib/Hardware/Sensor.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SerialPrinter/Serial.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1YZCbWdr1gjOxzdBIn0WFwTGFZ3" />
   <component name="PropertiesComponent">
@@ -100,22 +123,30 @@
       <option name="presentableId" value="Default" />
       <updated>1583140800300</updated>
       <workItem from="1583140801710" duration="65000" />
+      <workItem from="1585384101143" duration="165000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="199" key="#Default" />
@@ -168,6 +199,21 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SerialPrinter/Serial.cs</url>
+          <line>52</line>
+          <properties documentPath="$PROJECT_DIR$/SerialPrinter/Serial.cs" initialLine="52">
+            <startOffsets>
+              <option value="1707" />
+              <option value="1735" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1824" />
+              <option value="1812" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -401,7 +401,7 @@
       </e>
       <e p="Solution Items" t="Include" />
     </e>
-    <e p="C:\Users\ponomarenko\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\ponomarenko\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_LibreHardwareMonitor.-1690801647.00" t="ExcludeRecursive" />
+    <e p="C:\Users\alf01pk\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\alf01pk\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_LibreHardwareMonitor.-1690801647.00" t="ExcludeRecursive" />
   </component>
 </project>

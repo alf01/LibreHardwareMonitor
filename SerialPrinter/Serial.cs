@@ -25,8 +25,8 @@ namespace SerialPrinter
             set { _connectionWorker.Port = value; }
         }
 
-        private float MaxTemp(Computer computer, HardwareType type, string name = null)
-        {
+       private float MaxTemp(Computer computer, HardwareType type, string name = null)
+         {
             var gpus = computer.Hardware.Where(x => x.HardwareType == type).ToArray();
 
             if (gpus.Any())
@@ -49,6 +49,13 @@ namespace SerialPrinter
 
                         var temps = gpu.Sensors.Where(x => x.SensorType == SensorType.Temperature).ToArray();
 
+                        //zen 2 additional sensors bug 204 degrees adding 3 additional sensors with -124-204 degrees
+                        var tide = temps.Where(w => string.Equals(w.Name ,"Core (Tctl/Tdie)", StringComparison.OrdinalIgnoreCase)).ToArray();
+                        if (tide.Length > 0)
+                        {
+                            temps = tide;
+                        }
+
                         if (temps.Any())
                         {
                             var temp = temps.Max(x => x.Value.Value);
@@ -57,6 +64,13 @@ namespace SerialPrinter
 
                         foreach (var sh in gpu.SubHardware)
                         {
+
+
+                            if (type == HardwareType.Cpu)
+                            {
+                                Console.WriteLine();
+                            }
+
                             temps = sh.Sensors.Where(x => x.SensorType == SensorType.Temperature).ToArray();
                             if (temps.Any())
                             {
