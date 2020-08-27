@@ -296,10 +296,16 @@ namespace LibreHardwareMonitor.Hardware
 
         public void Traverse(IVisitor visitor)
         {
-            foreach (IGroup group in _groups)
+            lock (_lock)
             {
-                foreach (IHardware hardware in group.Hardware)
-                    hardware.Accept(visitor);
+                // Use a for-loop instead of foreach to avoid a collection modified exception after sleep, even though everything is under a lock.
+                for (int i = 0; i < _groups.Count; i++)
+                {
+                    IGroup group = _groups[i];
+
+                    for (int j = 0; j < group.Hardware.Count; j++)
+                        group.Hardware[j].Accept(visitor);
+                }
             }
         }
 
@@ -336,14 +342,18 @@ namespace LibreHardwareMonitor.Hardware
 
         private void RemoveType<T>() where T : IGroup
         {
-            List<IGroup> list = new List<IGroup>();
-            foreach (IGroup group in _groups)
+            List<T> list = new List<T>();
+
+            lock (_lock)
             {
-                if (group is T)
-                    list.Add(group);
+                foreach (IGroup group in _groups)
+                {
+                    if (group is T t)
+                        list.Add(t);
+                }
             }
 
-            foreach (IGroup group in list)
+            foreach (T group in list)
                 Remove(group);
         }
 

@@ -268,21 +268,21 @@ namespace LibreHardwareMonitor.Hardware.CPU
                         Ring0.WritePciConfig(0x00, FAMILY_17H_PCI_CONTROL_REGISTER, F17H_M70H_CCD1_TEMP + (i * 0x4));
                         Ring0.ReadPciConfig(0x00, FAMILY_17H_PCI_CONTROL_REGISTER + 4, out uint ccdTempData);
 
-                        uint ccdTemp = ccdTempData & 0xFFF;
-                        if (ccdTemp == 0)
-                            continue;
-
-                        if (_ccdTemperatures[i] == null)
-                        {
-                            _hw.ActivateSensor(_ccdTemperatures[i] = new Sensor($"CCD{i + 1} (Tdie)",
-                                                                                _hw._sensorTemperatures++,
-                                                                                SensorType.Temperature,
-                                                                                _hw,
-                                                                                _hw._settings));
+                            ccdRawTemp &= 0xFFF;
+                            float ccdTemp = ((ccdRawTemp * 125) - 305000) * 0.001f;
+                            if (ccdRawTemp > 0 && ccdTemp < 125)  // Zen 2 reports 95 degrees C max, but it might exceed that.
+                            {
+                                if (_ccdTemperatures[i] == null)
+                                {
+                                    _hardware.ActivateSensor(_ccdTemperatures[i] = new Sensor($"CCD{i + 1} (Tdie)",
+                                                                                              _hardware._sensorTemperatures++,
+                                                                                              SensorType.Temperature,
+                                                                                              _hardware,
+                                                                                              _hardware._settings));
+                                }
+                                _ccdTemperatures[i].Value = ccdTemp;
+                            }
                         }
-
-                        _ccdTemperatures[i].Value = ((ccdTemp * 125) - 305000) * 0.001f;
-                    }
 
                     Sensor[] activeCcds = _ccdTemperatures.Where(x => x != null).ToArray();
                     if (activeCcds.Length > 1)
