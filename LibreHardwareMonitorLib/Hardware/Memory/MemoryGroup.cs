@@ -15,7 +15,7 @@ namespace LibreHardwareMonitor.Hardware.Memory
         public MemoryGroup(ISettings settings)
         {
             // No implementation for RAM on Unix systems
-            if (Software.OperatingSystem.IsLinux)
+            if (Software.OperatingSystem.IsUnix)
             {
                 _hardware = new Hardware[0];
                 return;
@@ -28,7 +28,7 @@ namespace LibreHardwareMonitor.Hardware.Memory
             return null;
         }
 
-        public IEnumerable<IHardware> Hardware => _hardware;
+        public IReadOnlyList<IHardware> Hardware => _hardware;
 
         public void Close()
         {

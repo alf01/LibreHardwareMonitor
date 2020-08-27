@@ -7,39 +7,27 @@ using System.Collections.Generic;
 using System.Text;
 using HidSharp;
 
-namespace LibreHardwareMonitor.Hardware.Controller.AquaComputer
+namespace LibreHardwareMonitor.Hardware.Controller.Nzxt
 {
-    public class AquaComputerGroup : IGroup
+    internal class NzxtGroup : IGroup
     {
         private readonly List<IHardware> _hardware = new List<IHardware>();
         private readonly StringBuilder _report = new StringBuilder();
 
-        public AquaComputerGroup(ISettings settings)
+        public NzxtGroup(ISettings settings)
         {
-            _report.AppendLine("AquaComputer Hardware");
+            _report.AppendLine("Nzxt Hardware");
             _report.AppendLine();
 
-            foreach (HidDevice dev in DeviceList.Local.GetHidDevices(0x0c70))
+            foreach (HidDevice dev in DeviceList.Local.GetHidDevices(0x1e71))
             {
                 string productName = dev.GetProductName();
-                productName = productName.Substring(0, 1).ToUpper() + productName.Substring(1);
 
                 switch (dev.ProductID)
                 {
-                    case 0xf0b6:
+                    case 0x2007:
                     {
-                        var device = new AquastreamXT(dev, settings);
-                        _report.AppendLine($"Device name: {productName}");
-                        _report.AppendLine($"Device variant: {device.Variant}");
-                        _report.AppendLine($"Firmware version: {device.FirmwareVersion}");
-                        _report.AppendLine($"{device.Status}");
-                        _report.AppendLine();
-                        _hardware.Add(device);
-                        break;
-                    }
-                    case 0xf003:
-                    {
-                        var device = new MPS(dev, settings);
+                        var device = new KrakenX3(dev, settings);
                         _report.AppendLine($"Device name: {productName}");
                         _report.AppendLine($"Firmware version: {device.FirmwareVersion}");
                         _report.AppendLine($"{device.Status}");
@@ -58,7 +46,7 @@ namespace LibreHardwareMonitor.Hardware.Controller.AquaComputer
 
             if (_hardware.Count == 0)
             {
-                _report.AppendLine("No AquaComputer Hardware found.");
+                _report.AppendLine("No Nzxt Hardware found.");
                 _report.AppendLine();
             }
         }

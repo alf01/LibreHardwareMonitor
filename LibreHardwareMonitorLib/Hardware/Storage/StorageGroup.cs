@@ -16,7 +16,7 @@ namespace LibreHardwareMonitor.Hardware.Storage
 
         public StorageGroup(ISettings settings)
         {
-            if (Software.OperatingSystem.IsLinux)
+            if (Software.OperatingSystem.IsUnix)
                 return;
 
             //https://docs.microsoft.com/en-us/windows/win32/cimwin32prov/win32-diskdrive
@@ -44,7 +44,7 @@ namespace LibreHardwareMonitor.Hardware.Storage
             mosDisks.Dispose();
         }
 
-        public IEnumerable<IHardware> Hardware => _hardware;
+        public IReadOnlyList<IHardware> Hardware => _hardware;
 
         public string GetReport()
         {

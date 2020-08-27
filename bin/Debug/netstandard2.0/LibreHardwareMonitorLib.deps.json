@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "79930e8d4ad64b0dfd2532d4f0c76547674f0b5d"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -9,21 +9,21 @@
     ".NETStandard,Version=v2.0/": {
       "LibreHardwareMonitorLib/1.0.0": {
         "dependencies": {
+          "HidSharp": "2.1.0",
           "Microsoft.Win32.Registry": "4.7.0",
           "NETStandard.Library": "2.0.3",
           "System.IO.Ports": "4.7.0",
-          "System.Management": "4.7.0",
-          "hidlibrary": "3.2.46"
+          "System.Management": "4.7.0"
         },
         "runtime": {
           "LibreHardwareMonitorLib.dll": {}
         }
       },
-      "hidlibrary/3.2.46": {
+      "HidSharp/2.1.0": {
         "runtime": {
-          "lib/HidLibrary.dll": {
-            "assemblyVersion": "3.2.46.0",
-            "fileVersion": "3.2.46.0"
+          "lib/netstandard2.0/HidSharp.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
           }
         }
       },
@@ -155,12 +155,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "hidlibrary/3.2.46": {
+    "HidSharp/2.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UFdhTVg5ZQZmfeYBgV/ndR72hTAmHf2DUtAvy9F5vAaIUS+8YlG9SFMwuUxBUQCjOA1jHfmEy808mHeN06jCbg==",
-      "path": "hidlibrary/3.2.46",
-      "hashPath": "hidlibrary.3.2.46.nupkg.sha512"
+      "sha512": "sha512-UTdxWvbgp2xzT1Ajaa2va+Qi3oNHJPasYmVhbKI2VVdu1VYP6yUG+RikhsHvpD7iM0S8e8UYb5Qm/LTWxx9QAA==",
+      "path": "hidsharp/2.1.0",
+      "hashPath": "hidsharp.2.1.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

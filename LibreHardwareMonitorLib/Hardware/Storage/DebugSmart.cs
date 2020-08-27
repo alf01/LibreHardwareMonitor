@@ -4,14 +4,13 @@
 // Partial Copyright (C) Michael Möller <mmoeller@openhardwaremonitor.org> and Contributors.
 // All Rights Reserved.
 
+#if DEBUG
+
 using System;
-using System.Collections.Generic;
 using LibreHardwareMonitor.Interop;
 
 namespace LibreHardwareMonitor.Hardware.Storage
 {
-#if DEBUG
-
     internal class DebugSmart : ISmart
     {
         private readonly Drive[] _drives = {
@@ -380,7 +379,7 @@ namespace LibreHardwareMonitor.Hardware.Storage
 
                 string[] lines = value.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
                 DriveAttributeValues = new Kernel32.SMART_ATTRIBUTE[lines.Length];
-                var thresholds = new List<Kernel32.SMART_THRESHOLD>();
+                var thresholds = new System.Collections.Generic.List<Kernel32.SMART_THRESHOLD>();
 
                 for (int i = 0; i < lines.Length; i++)
                 {
@@ -420,6 +419,6 @@ namespace LibreHardwareMonitor.Hardware.Storage
             public string Name { get; }
         }
     }
+}
 
 #endif
-}
