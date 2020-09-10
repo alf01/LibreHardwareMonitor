@@ -81,53 +81,53 @@ namespace LibreHardwareMonitor.Hardware.Motherboard.Lpc
             {
                 case Chip.IT8665E:
                 case Chip.IT8686E:
-                {
-                    Voltages = new float?[10];
-                    Temperatures = new float?[6];
-                    Fans = new float?[6];
-                    Controls = new float?[5];
-                    break;
-                }
+                    {
+                        Voltages = new float?[10];
+                        Temperatures = new float?[6];
+                        Fans = new float?[6];
+                        Controls = new float?[5];
+                        break;
+                    }
                 case Chip.IT8688E:
-                {
-                    Voltages = new float?[11];
-                    Temperatures = new float?[6];
-                    Fans = new float?[6];
-                    Controls = new float?[5];
-                    break;
-                }
+                    {
+                        Voltages = new float?[11];
+                        Temperatures = new float?[6];
+                        Fans = new float?[6];
+                        Controls = new float?[5];
+                        break;
+                    }
                 case Chip.IT8655E:
-                {
-                    Voltages = new float?[9];
-                    Temperatures = new float?[6];
-                    Fans = new float?[3];
-                    Controls = new float?[3];
-                    break;
-                }
+                    {
+                        Voltages = new float?[9];
+                        Temperatures = new float?[6];
+                        Fans = new float?[3];
+                        Controls = new float?[3];
+                        break;
+                    }
                 case Chip.IT879XE:
-                {
-                    Voltages = new float?[9];
-                    Temperatures = new float?[3];
-                    Fans = new float?[3];
-                    Controls = new float?[3];
-                    break;
-                }
+                    {
+                        Voltages = new float?[9];
+                        Temperatures = new float?[3];
+                        Fans = new float?[3];
+                        Controls = new float?[3];
+                        break;
+                    }
                 case Chip.IT8705F:
-                {
-                    Voltages = new float?[9];
-                    Temperatures = new float?[3];
-                    Fans = new float?[3];
-                    Controls = new float?[3];
-                    break;
-                }
+                    {
+                        Voltages = new float?[9];
+                        Temperatures = new float?[3];
+                        Fans = new float?[3];
+                        Controls = new float?[3];
+                        break;
+                    }
                 default:
-                {
-                    Voltages = new float?[9];
-                    Temperatures = new float?[3];
-                    Fans = new float?[5];
-                    Controls = new float?[3];
-                    break;
-                }
+                    {
+                        Voltages = new float?[9];
+                        Temperatures = new float?[3];
+                        Fans = new float?[5];
+                        Controls = new float?[3];
+                        break;
+                    }
             }
 
             _fansDisabled = new bool[Fans.Length];
@@ -144,22 +144,22 @@ namespace LibreHardwareMonitor.Hardware.Motherboard.Lpc
                 case Chip.IT8772E:
                 case Chip.IT8686E:
                 case Chip.IT8688E:
-                {
-                    _voltageGain = 0.012f;
-                    break;
-                }
+                    {
+                        _voltageGain = 0.012f;
+                        break;
+                    }
                 case Chip.IT8655E:
                 case Chip.IT8665E:
                 case Chip.IT879XE:
-                {
-                    _voltageGain = 0.0109f;
-                    break;
-                }
+                    {
+                        _voltageGain = 0.0109f;
+                        break;
+                    }
                 default:
-                {
-                    _voltageGain = 0.016f;
-                    break;
-                }
+                    {
+                        _voltageGain = 0.016f;
+                        break;
+                    }
             }
 
             // Older IT8705F and IT8721F revisions do not have 16-bit fan counters.
@@ -191,21 +191,21 @@ namespace LibreHardwareMonitor.Hardware.Motherboard.Lpc
                 case Chip.IT8716F:
                 case Chip.IT8718F:
                 case Chip.IT8726F:
-                {
-                    _gpioCount = 5;
-                    break;
-                }
+                    {
+                        _gpioCount = 5;
+                        break;
+                    }
                 case Chip.IT8720F:
                 case Chip.IT8721F:
-                {
-                    _gpioCount = 8;
-                    break;
-                }
+                    {
+                        _gpioCount = 8;
+                        break;
+                    }
                 default:
-                {
-                    _gpioCount = 0;
-                    break;
-                }
+                    {
+                        _gpioCount = 0;
+                        break;
+                    }
             }
         }
 
