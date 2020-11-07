@@ -87,6 +87,8 @@ namespace LibreHardwareMonitor.UI
             this.plotRightMenuItem = new LibreHardwareMonitor.UI.ToolStripRadioButtonMenuItem();
             this.logSeparatorMenuItem = new System.Windows.Forms.ToolStripSeparator();
             this.logSensorsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.runSerialMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.serialSettingsMenuItem = new System.Windows.Forms.ToolStripMenuItem();            
             this.loggingIntervalMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.log1sMenuItem = new LibreHardwareMonitor.UI.ToolStripRadioButtonMenuItem();
             this.log2sMenuItem = new LibreHardwareMonitor.UI.ToolStripRadioButtonMenuItem();
@@ -411,10 +413,14 @@ namespace LibreHardwareMonitor.UI
             this.plotLocationMenuItem,
             this.logSeparatorMenuItem,
             this.logSensorsMenuItem,
+            this.logSensorsMenuItem,          
             this.loggingIntervalMenuItem,
             this.sensorValuesTimeWindowMenuItem,
             this.webMenuItemSeparator,
-            this.webMenuItem});
+            this.webMenuItem,
+            this.webMenuItemSeparator,
+            this.runSerialMenuItem,
+            this.serialSettingsMenuItem});
             this.optionsMenuItem.Name = "optionsMenuItem";
             this.optionsMenuItem.Size = new System.Drawing.Size(61, 20);
             this.optionsMenuItem.Text = "Options";
@@ -514,6 +520,19 @@ namespace LibreHardwareMonitor.UI
             this.logSensorsMenuItem.Name = "logSensorsMenuItem";
             this.logSensorsMenuItem.Size = new System.Drawing.Size(221, 22);
             this.logSensorsMenuItem.Text = "Log Sensors";
+
+           
+            this.runSerialMenuItem.Name = "runSerialMenuItem";
+            this.runSerialMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.runSerialMenuItem.Text = "Run Serial";
+
+
+            this.serialSettingsMenuItem.Name = "serialSettingsMenuItem";
+            this.serialSettingsMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.serialSettingsMenuItem.Text = "Serial Settings";
+            this.serialSettingsMenuItem.Click += new System.EventHandler(this.SerialConfigMenuItem_Click);
+
+
             // 
             // loggingIntervalMenuItem
             // 
@@ -754,7 +773,7 @@ namespace LibreHardwareMonitor.UI
             this.authWebServerMenuItem.Name = "authWebServerMenuItem";
             this.authWebServerMenuItem.Size = new System.Drawing.Size(153, 22);
             this.authWebServerMenuItem.Text = "Authentication";
-            this.authWebServerMenuItem.Click += new System.EventHandler(this.AuthWebServerMenuItem_Click);
+            //this.authWebServerMenuItem.Click += new System.EventHandler(this.AuthWebServerMenuItem_Click);
             // 
             // helpMenuItem
             // 
@@ -930,6 +949,8 @@ namespace LibreHardwareMonitor.UI
         private System.Windows.Forms.ToolStripMenuItem fanControllerMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ramMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logSensorsMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem runSerialMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem serialSettingsMenuItem;
         private System.Windows.Forms.ToolStripSeparator logSeparatorMenuItem;
         private System.Windows.Forms.ToolStripMenuItem loggingIntervalMenuItem;
         private ToolStripRadioButtonMenuItem log1sMenuItem;
