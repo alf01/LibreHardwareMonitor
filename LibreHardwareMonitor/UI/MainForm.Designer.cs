@@ -412,7 +412,6 @@ namespace LibreHardwareMonitor.UI
             this.temperatureUnitsMenuItem,
             this.plotLocationMenuItem,
             this.logSeparatorMenuItem,
-            this.logSensorsMenuItem,
             this.logSensorsMenuItem,          
             this.loggingIntervalMenuItem,
             this.sensorValuesTimeWindowMenuItem,
